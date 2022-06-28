@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client",
+    "e2e"
+  ],
+  "scripts": {
+    "build:client": "yarn workspace StarWars-client build",
+    "dev": "yarn workspace StarWars-server dev",
+    "dev:debug": "yarn workspace StarWars-server dev:debug",
+    "heroku-postbuild": "yarn workspace StarWars-client build",
+    "start": "yarn workspace StarWars-server start",
+    "dev:cypress": "yarn workspace StarWars-server dev:e2e",
+    "e2e:open": "yarn workspace StarWars-e2e e2e:open",
+    "e2e:run": "yarn workspace StarWars-e2e e2e:run"
+  },
+  "engines": {
+    "node": "^14.19"
+  }
+}
