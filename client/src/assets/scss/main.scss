@@ -12,3 +12,30 @@
   -moz-tab-size: 4;
   tab-size: 4;
 }
+
+body{
+  background-image: url("https://images.unsplash.com/photo-1533613220915-609f661a6fe1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  display: block;
+  background-size: cover;
+  z-index: 0;
+  
+
+}
+.Header-text{
+  text-align: center;
+ 
+}
+
+img{
+  z-index: 1;
+  height:100px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.name{
+  color: white;
+}
