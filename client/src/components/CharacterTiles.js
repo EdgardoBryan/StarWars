@@ -3,7 +3,9 @@ import React from "react";
 const CharacterTiles = (props) =>{
     return (
         <>
-        <h6 className="name">{props.people.name} </h6>
+        <div className="name child-class">{props.name}
+        Height:{props.people.height} Gender:{props.people.gender}BirthYear:{props.people.birth_year}</div>
+        
         </>
     )
 }
