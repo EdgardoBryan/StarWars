@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import CharacterTiles from "./CharacterTiles";
 
 
@@ -29,10 +30,13 @@ getPeople()
     return <CharacterTiles key={i} name={people.name} people={people}/>
   }) 
     return(
+      <div>
+        <Link to="/">Here for Visuals</Link>
         <div className="main-container">
             <img className="star-wars-logo" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/maxresdefault-13.jpg?auto=format&q=60&fit=max&w=930" alt="star-wars-logo"/>
             <div className="container-class">{getCharacters}</div>
-        </div>   
+        </div>
+        </div>     
     )
 }
 
