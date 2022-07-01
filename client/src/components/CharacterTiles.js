@@ -4,7 +4,7 @@ const CharacterTiles = (props) =>{
     return (
         <>
         <div className="name child-class">{props.name}
-        Height:{props.people.height} Gender:{props.people.gender}BirthYear:{props.people.birth_year}</div>
+        Height:{props.people.height} Gender:{props.people.gender} BirthYear:{props.people.birth_year}</div>
         
         </>
     )

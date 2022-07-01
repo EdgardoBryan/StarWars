@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CharacterTiles from "./CharacterTiles";
 
+
 const CharacterPage = (props) =>{
     const[peopleData,setPeople]=useState([])
 
@@ -29,7 +30,7 @@ getPeople()
   }) 
     return(
         <div className="main-container">
-            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/maxresdefault-13.jpg?auto=format&q=60&fit=max&w=930" alt="star-wars-logo"/>
+            <img className="star-wars-logo" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/maxresdefault-13.jpg?auto=format&q=60&fit=max&w=930" alt="star-wars-logo"/>
             <div className="container-class">{getCharacters}</div>
         </div>   
     )
