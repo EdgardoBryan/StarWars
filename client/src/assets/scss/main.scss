@@ -1,6 +1,7 @@
 @import "./foundation/settings";
 @import "~foundation-sites/scss/foundation";
 @include foundation-everything;
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu&display=swap');
 // place global css here
 
 
@@ -40,11 +41,12 @@ img{
 }
 
 .child-class{
-height: 15rem;
-width: 20rem;
+height: 20rem;
+width: 30rem;
 border: 4px solid grey;
 background-color: #f3e2f4;
-font-size: 15px;
+font-size: 20px;
+font-weight: 700;
 letter-spacing:3px;
 line-height: 3rem;
 margin-left: 40px;
@@ -53,6 +55,8 @@ text-transform: capitalize;
 word-wrap: break-word;
 transition: 1s ease all;
 padding: 10px;
+color: white;
+font-family: 'Koulen', cursive;
 }
 
 .child-class:hover{
@@ -60,6 +64,7 @@ transition: 1s ease all;
 background-color: bisque;
 border: 2px solid black;
 cursor: grab;
+
 }
 .image-container{
   display: flex;
@@ -120,3 +125,49 @@ border: 10px solid white;
   transition: 1s ease all;
   border: 10px solid red;
 }
+
+.child-class:nth-child(1){
+  background-image: url("https://www.themarysue.com/wp-content/uploads/2021/02/luke-skywalker-disney-plus-mandalorian-the-rescue.jpeg");
+  background-size: cover;
+}
+.child-class:nth-child(2){
+  background-size: cover;
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2015/07/C-3PO-See-Threepio_68fe125c-1536x864-451079149590.jpeg");
+}
+.child-class:nth-child(3){
+  background-size: cover;
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=247%2C0%2C951%2C536");
+}
+.child-class:nth-child(4){
+  background-size: cover;
+  background-image: url("https://wegotthiscovered.com/wp-content/uploads/2022/02/Darth-Vader-Rogue-One-2-1200x900.jpg");
+}
+.child-class:nth-child(5){
+  background-size: cover;
+  background-image: url("https://pbs.twimg.com/media/C0s8bBfVIAA3Ew_.jpg");
+}
+.child-class:nth-child(6){
+  background-size: cover;
+  background-image: url("https://www.starwarsnewsnet.com/wp-content/uploads/2022/05/Obi-Wan-Kenobi-And-Owen-Lars.jpg");
+}
+.child-class:nth-child(7){
+  background-size: cover;
+  background-image: url("https://m.media-amazon.com/images/I/91jFkIKXuhL._AC_SL1500_.jpg");
+}
+.child-class:nth-child(8){
+  background-size: cover;
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=374%2C0%2C1186%2C666&width=960" );
+}
+.child-class:nth-child(9){
+  background-size: cover;
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2015/08/Biggs.png");
+}
+.child-class:nth-child(10){
+  background-size: cover;
+  background-image: url("https://d.newsweek.com/en/full/2046388/obi-wan-kenobi-timeline.jpg?w=1600&h=1600&q=88&f=a2dd0ab1c60dae4ac27161eafa1ca994");
+}
+
+
+
+
+
